@@ -1,0 +1,40 @@
+
+#header{
+    background-color: red;
+    text-align: center;
+    width:500px;	
+    padding:5px;
+}
+
+#content{
+    background-color:silver;
+    width:500px;
+    padding:5px;
+}
+h1{
+    margin:0;
+}
+li{
+    padding:10px;
+    list-style: none;
+    padding-left: 50px;
+}
+#cancel{
+    float:right
+}
+.check{
+    text-decoration: line-through;
+    
+}
+.check::before {
+    content: '';
+    position:absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: auto;
+    left: 80px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
